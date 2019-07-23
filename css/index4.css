@@ -1,0 +1,270 @@
+@font-face {
+    font-family: jianti;
+    src: url(//game.gtimg.cn/images/yxzj/ingame/cp/a20190618jxxgig/FZSHENGSKSJW_CU.woff);
+}
+body
+{
+    margin:0;
+    font-family:jianti;
+    max-width:1920px;
+    min-width:1336px;
+}
+.main
+{
+    width:100%;
+    height:auto;
+    background:url(../img4/bg.jpg) no-repeat center/cover;
+}
+.desc
+{
+    color: #343747;
+}
+.godinfo,.godinfo2
+{
+    color: #43466e;
+}
+.kv
+{
+    width:100%;
+}
+.kvlogo
+{
+    margin:-55% 0 0 5%;
+}
+.kvlogo img
+{
+    display: inline;
+}
+.kvfoot
+{
+    margin-top:26%;
+}
+.section1,.section2
+{
+    width:100%;
+    margin-top:10%;
+}
+.interview
+{
+    height:1000px;
+}
+.interview1
+{
+    width:100%;
+    list-style-type:none;
+    float: right;
+    position: relative;
+    margin-top:7%;
+}
+.interview1 li
+{
+    position: relative;
+    height:80px;
+    margin-bottom:50px;
+}
+.interview1 li:nth-of-type(even)
+{
+    height:200px;
+}
+.interview1 li:nth-child(odd) img
+{
+    width:60px;
+    height:60px;
+    position: absolute;
+    right:75px;
+}
+.interview1 li:nth-child(odd) .username
+{
+    background:url(../img4/user-name-bg.png) no-repeat;
+    width: 144px;
+    height: 26px;
+    background-size:100%;
+    min-width:144px;
+    min-height:26px;
+    text-align:center;
+    line-height:26px;
+    position: absolute;
+    color:white;
+    right:30px;
+    top:50%;
+}
+.interview1 li:nth-child(odd) .desc
+{
+    background:url(../img4/interview1.png) no-repeat center;
+    width:624px;
+    height: 73px;
+    text-align:center;
+    line-height: 66px;
+    position: relative;
+    float: right;
+    margin-right:180px;
+    font-size:25px;
+}
+.interview1 li:nth-child(even) img
+{
+    width:80px;
+    height:80px;
+    position: absolute;
+    right:755px;
+}
+.interview1 li:nth-child(even) .desc
+{
+    background:url(../img4/interview2.png) no-repeat center;
+    width:670px;
+    height:auto;
+    background-size:100% 100%;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    font-size:25px;
+}
+.interview1 li:nth-child(even) .desc p
+{
+    width: 90%;
+    margin-left:5%;
+    line-height:39px;
+}
+.god1
+{
+    background: url(../img4/interviewbg1.png) no-repeat center/cover;
+    width:100%;
+    height:278px;
+    position: relative;
+}
+.god1 .person
+{
+    position: absolute;
+    bottom:0;
+}
+.godinfo
+{
+    float: right;
+    margin-top: 1%;
+    height:258px;
+    font-size:25px;
+}
+.interview2
+{
+    width:100%;
+    list-style-type:none;
+    float: left;
+    position: relative;
+    margin-top:7%;
+    margin-left:3%;
+}
+.interview2 li
+{
+    position: relative;
+    height:80px;
+    margin-bottom:90px;
+}
+.interview2 li:nth-of-type(even)
+{
+    height:90px;
+}
+.interview2 li:nth-child(odd) img
+{
+    width:60px;
+    height:60px;
+    position: absolute;
+    left:75px;
+}
+.interview2 li:nth-child(odd) .username
+{
+    background:url(../img4/user-name-bg.png) no-repeat;
+    width: 144px;
+    height: 26px;
+    background-size:100%;
+    min-width:144px;
+    min-height:26px;
+    text-align:center;
+    line-height:26px;
+    position: absolute;
+    color:white;
+    left:30px;
+    top:50%;
+}
+.interview2 li:nth-child(odd) .desc
+{
+    background:url(../img4/interview3.png) no-repeat center;
+    width:670px;
+    height:auto;
+    background-size:100% 110%;
+    position: relative;
+    float: left;
+    margin-left:15%;
+    font-size:25px;
+}
+.interview2 li:nth-child(odd) .desc p
+{
+    width: 90%;
+    margin-left:5%;
+    line-height:35px;
+}
+.interview2 li:nth-child(even) img
+{
+    width:80px;
+    height:80px;
+    position: absolute;
+    left:755px;
+}
+.interview2 li:nth-child(even) .desc
+{
+    background:url(../img4/interview4.png) no-repeat center;
+    width:670px;
+    height:auto;
+    background-size:100% 100%;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    font-size:25px;
+}
+.interview2 li:nth-child(even) .desc p
+{
+    width: 90%;
+    margin-left:5%;
+    line-height:39px;
+}
+.god2
+{
+    background: url(../img4/interviewbg2.png) no-repeat center/cover;
+    width:100%;
+    height:278px;
+    position: relative;
+}
+.god2 .person2
+{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:35%;
+}
+.godinfo2
+{
+    float: left;
+    margin-top: 1%;
+    margin-left:15%;
+    height:258px;
+    font-size:25px;
+}
+.foot
+{
+    margin-top:5%;
+    width:100%;
+    height:500px;
+    position: relative;
+}
+.foot p
+{
+    text-align: center;
+    font-size:35px;
+    top:10px;
+    color: #43466e;
+}
+.foot a
+{
+    background:url(../img4/button.png) no-repeat center;
+    width:100%;
+    height:300px;
+    display: block;
+}

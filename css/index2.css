@@ -1,0 +1,165 @@
+body
+{
+    margin:0;
+    height:5000px;
+}
+img
+{
+    width:100%;
+}
+.kvlink1 a img
+{
+    width:32%;
+    position: relative;
+    z-index:5;
+    margin-bottom:-20%;
+}
+.kvlink2
+{
+    width:100%;
+    margin-top: 5%;
+
+}
+.kvlink2 a img
+{
+    width:45%;
+    position: relative;
+    z-index:5;
+}
+.section1
+{
+    margin-top:33%;
+}
+.section2,.section3
+{
+    margin-top: 20%;
+}
+.section1item
+{
+    width:100%;
+    margin-top:-55%;
+    margin-left:10%;
+}
+.section1item img
+{
+    width:40%;
+}
+.section2info
+{
+    position: relative;
+    margin-bottom:-30%;
+    z-index:5;
+}
+.section2info2
+{
+    margin-top:-120%;
+    width:94%;
+    margin-left:3%;
+}
+.section2info2 p
+{
+    color:white;
+    line-height:21px;
+    font-size:12px;
+}
+.section2character
+{
+    width:100%;
+    position: relative;
+    z-index:5;
+}
+.section2character img
+{
+    width:25%;
+}
+.section3scene p
+{
+    width:100%;
+    text-align: center;
+}
+.itemleft
+{
+    position: relative;float:left;margin-bottom:-33%;margin-top:5%;
+}
+.s3item table
+{
+    position: relative;
+    border-collapse:collapse;
+    width:100%;
+    margin-bottom:-28%;
+    margin-left:3%;
+}
+.s3itemtitle
+{
+    color: blue;
+    font-weight:bold;
+}
+.s3itemimg
+{
+    text-align: center;
+    vertical-align:middle;
+    
+}
+.s3itemname
+{
+    text-align:center;
+    font-size:12px;
+}
+.section3foot p
+{
+    text-align: center;
+    font-size:12px;
+}
+.switch
+{
+    width:30%;margin:0 35%;cursor:pointer;
+}
+.section6
+{
+    margin-top:10%;
+}
+.s6info p
+{
+    text-align:center;
+    color:white;
+    font-size:12px;
+}
+.ybmq
+{
+    margin-top:-320%;
+}
+.gbtn
+{
+    margin-top:25%;
+}
+.ybmq .ybmqp1,.gbtn .gbtn1
+{
+    font-size:12px;
+    width:90%;
+    margin:-70% 5% 0 5%;
+}
+.ybmqskillinfo,.gbtnskillinfo
+{
+    margin:5%;
+}
+.ybmqskillicon,.gbtnskillicon
+{
+    width:15%;
+}
+.ybmqskillintro,.gbtnskillintro
+{
+    width:70%;
+    position: relative;
+    float: right;
+    margin-right:10%;
+    margin-top: -45%;
+}
+.ybmqskillintro p,.gbtnskillintro p
+{
+    font-size:10px;
+    color:blue;
+}
+.ybmqskillintro p span,.gbtnskillintro p span
+{
+    color:black;
+}

@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    background:url(../img4/bg.jpg) no-repeat;
+    width: 100%;
+    height:5068px;
+    background-size:100%;
+}
+.kv
+{
+    border:1px solid rgba(255, 255, 255, 0);
+    background:url(../img4/kvtitle.jpg) no-repeat;
+    width:100%;
+    height:750px;
+    background-size:100%;
+}
+.kvlogo
+{
+    margin-top:15%;
+}
+.titleinfo
+{
+    width:80%;
+    height:100px;
+    margin-top:10px;
+    border:1px solid rgba(255, 255, 255, 0);
+    position: relative;
+    margin-left:5%;
+    margin-top:5%;
+}
+.titleinfo img
+{
+    display: inline;
+}
+.logo
+{
+    background:url(../img4/logo.png) no-repeat;
+    width: 50%;
+    height:100px;
+    float: left;
+}
+.theme
+{
+    background:url(../img4/theme.png) no-repeat;
+    width: 55%;
+    height:100px;
+    float: right;
+    position: relative;
+    margin-top:-94px;
+    margin-right:310px;
+}
